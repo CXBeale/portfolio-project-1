@@ -1,4 +1,4 @@
-# individual-project - Mental Health Awareness Website
+# Portfolio Project 1 - Mental Health Awareness Website
  
 
 This website has been created to fulfill the project brief for Code Institute's first individual assessment.
