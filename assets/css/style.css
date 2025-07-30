@@ -28,10 +28,6 @@ h3 {
   text-transform: uppercase;
 }
 
-.sub-heading-color {
-  color: var(--highlight-color);
-}
-
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -51,26 +47,42 @@ h3 {
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
   z-index: 1000; /* Ensure navbar is above other content */
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); /* Add subtle shadow */
   
 }
 
 #navbar .logo {
-  width: 60px; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
 }
 
 /* Header Section */
-#header {
-  background-color: var(--secondary-color);
-  padding: 1rem 2rem;
 
-}
+.hero {
+     background-color: var(--primary-color); 
+     position: relative;
+      width: 100%;
+      height: 100vh;
+      background-image: url('/assets/images/hero-calm.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
 
+    .hero-text {
+      position: absolute;
+      text-align: center;
+      margin-top: -15%;
+    }
 
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 5rem;
+    }
 
-
-#header .lead {
-  font-family: var(--primary-font);
-}
+    .hero-text p {
+      font-size: 1.25rem;
+    }
