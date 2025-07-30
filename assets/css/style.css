@@ -9,11 +9,12 @@
 }
 
 
-/* wildcard selector*/
+/* wildcard selector
 * {
     border: solid 1px red;
-}
+}*/
 
+/* General Styles */
 
 body {
   font-family: var(--primary-font);
@@ -31,6 +32,11 @@ h3 {
   color: var(--highlight-color);
 }
 
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .container,
 .row {
   border: 2px solid black;
@@ -39,14 +45,32 @@ h3 {
 .col-12 {
   border: 2px solid white;
   background-color: lightgray;
+
 }
 
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  z-index: 1000; /* Ensure navbar is above other content */
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); /* Add subtle shadow */
+  
 }
 
 #navbar .logo {
   width: 60px; /* Adjust as needed */
+}
+
+/* Header Section */
+#header {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+
+}
+
+
+
+
+#header .lead {
+  font-family: var(--primary-font);
 }

@@ -53,8 +53,8 @@
   <!-- body classes allow footer to stick to bottom of page-->
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
-        <div class="container">
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="assets/images/Logo2nobg.png" alt="Clear Mind Logo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,11 +83,20 @@
     </nav>
 
     <!-- Header -->
-    <header id="header" class="container">
+    <header id="header" class="container-fluid" >
       <div class="row">
-            <div class="col-12 col-xl-6">
-                <h1>headline</h1>
-                <p>Message</p>
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-4">headline</h1>
+                <p class="lead display-6 sub-heading-color">Message</p>
+            </div>
+      </div>    
+    </header>
+
+    <header>
+      <div>
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-4">headline</h1>
+                <p class="lead display-6 sub-heading-color">Message</p>
             </div>
       </div>    
     </header>
