@@ -8,6 +8,13 @@
     --tertiary-color: #ca731f; /* Tomato */
 }
 
+
+/* wildcard selector*/
+* {
+    border: solid 1px red;
+}
+
+
 body {
   font-family: var(--primary-font);
 }
@@ -32,4 +39,14 @@ h3 {
 .col-12 {
   border: 2px solid white;
   background-color: lightgray;
+}
+
+/* Navbar Styles */
+#navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#navbar .logo {
+  width: 60px; /* Adjust as needed */
 }
