@@ -50,7 +50,8 @@
     <!-- Link CSS stylesheet - MUST come after Bootstrap to override its styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+  <!-- body classes allow footer to stick to bottom of page-->
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <div>Navigation</div>
 
@@ -59,19 +60,39 @@
       <div class="row">
             <div class="col-12 col-xl-6">
                 <h1>headline</h1>
-                <p>Paragraph</p>
-                <p>Paragraph 2</p>
+                <p>Message</p>
             </div>
-        <div class="col-12 col-xl-6">Carousel</div>
+        <div class="col-12 col-xl-6">Action</div>
       </div>    
     </header>
 
     <!-- Main -->
-
+    <main>
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+            </div>
+        </section>
+    </main>
 
 
     <!-- Footer -->
-
+<footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
+    </footer>
 
 
 

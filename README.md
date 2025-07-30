@@ -21,7 +21,7 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 
 - __User Stories__
 
-    - contents
+    - insert user stories
 
 - __Wireframes__
 
