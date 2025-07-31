@@ -108,6 +108,26 @@ h2 {
       margin-bottom: 1.5rem;
       }
 
+      /* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+#social-networks i:hover {
+    color: var(--tertiary-color);
+}
+
       /* Media Queries */
       @media screen and (min-width: 768px) {
         #welcome .card-body {
