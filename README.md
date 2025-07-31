@@ -37,17 +37,22 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Navigation Bar and Logo__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on the top of the home page, the fully responsive navigation bar includes links to the Logo (Home), Home page, Support, About, and Contact pages. It will be identical on all pages, allowing users to easily navigate between pages.
+  - the navigation bar was taken from bootstrap and modifications were made for the colour, the alignment of text, logo placement, and links.
+  - The default bar contains aria accesibility for current page and toggle menu. 
+  - Navbar responsiveness: as the page expands over medium (md screens), the toggle menu is replaced by page links.
+  - The navigation uses a sticky top display format and will remain at the top of the page as the user scrolls the page.
+  - The navbar also uses box-shadow and elevated z-index to give it a feel of being above the rest of the page.
+  - The logo was designed using copilot image generation, directed to create a sleek line design representing the websites image. It gives a sense of simplicity, clarity, and calmness. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The Header and Hero image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The hero image was chosen to evoke a sense of calm in the user with 
+  - The section
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
