@@ -31,7 +31,7 @@ https://github.com/CXBeale/portfolio-project-1
 - __Wireframes__
 
     - wire frames were generated for mobile and desktop set ups using balsamiq.
-    -
+    - the wireframes are added in the file assets/wireframes. feel free to check these out
 
 - __Additional__
 
@@ -102,6 +102,8 @@ For the testing of the site, the responsiveness was checked at each level to ens
   
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
+  - https://jigsaw.w3.org/css-validator/#validate_by_input
+
 
 ### Unfixed Bugs
 
