@@ -9,10 +9,10 @@
 }
 
 
-/* wildcard selector
+/* wildcard selector*/
 * {
     border: solid 1px red;
-}*/
+}
 
 /* General Styles */
 
@@ -25,7 +25,15 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  
+}
+
+h1, h2 {
   text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 2rem;
 }
 
 .section {
@@ -86,3 +94,19 @@ h3 {
     .hero-text p {
       font-size: 1.25rem;
     }
+
+    /* Section Styles */
+
+    /* Section 1 Styles */
+    #welcome .card {
+      border: 2px solid var(--highlight-color);
+      background-color: var(--secondary-color);
+      margin-bottom: 1.5rem;
+      }
+
+      /* Media Queries */
+      @media screen and (min-width: 768px) {
+        #welcome .card {
+          margin-bottom: 0;
+        }
+      }
