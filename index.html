@@ -46,218 +46,358 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-    
+
     <!-- Link CSS stylesheet - MUST come after Bootstrap to override its styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <!-- body classes allow footer to stick to bottom of page-->
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-md sticky-top" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/Logo.png" alt="Clear Mind Logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="game-library.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/images/Logo.png" alt="Clear Mind Logo" class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Header -->
     <header class="hero">
-        <div class="hero-text">
-          <h1 class="display-4">ClearMind</h1>
-          <p class="lead display-6">Empowering mental wellness</p>
-          add CTA button here
-        </div>
+      <div class="hero-text">
+        <h1 class="display-4">ClearMind</h1>
+        <p class="lead display-6">Empowering mental wellness</p>
+        <a href="#connect" class="btn btn-dark btn-outline-light">Connect</a>
+      </div>
+      
     </header>
-          
-    
-  
 
     <!-- Main -->
     <main>
-        <!-- Section 1 welcome -->
-        <section id="welcome" class="container-fluid section">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Welcome</h2>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/images/services-1.webp" class="card-img-top"
-                            alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table">
-        <div class="card-body">
-            <h3 class="card-title sub-heading-color">About</h3>
-            <p class="card-text">
-                Talk to proffesional health services about your mental health. 
-            </p>
-        </div>
-        
-    </div>
-</div>
-<div class="col-12 col-md-6 col-xl-3">
-    <div class="card">
-        <img src="assets/images/services-2.webp" class="card-img-top"
-            alt="Board games stacked in bookshelves, a man can be seen browsing the shelves" />
-        <div class="card-body">
-            <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
-            <h3 class="card-title sub-heading-color">Support</h3>
-            <p class="card-text">
-                Join the community and connect with others who care about mental health
-            </p>
-        </div>
-        <div class="card-footer">
-            <p class="mb-0">See prices in store</p>
-        </div>
-    </div>
-</div>
-<div class="col-12 col-md-6 col-xl-3">
-    <div class="card">
-        <img src="assets/images/services-3.webp" class="card-img-top">
-        <div class="card-body">
-            <h3 class="card-title sub-heading-color">Advice</h3>
-            <p class="card-text">
-                Join us for special game nights, tournaments, and themed
-                events. A great opportunity to meet new people and test your
-                gaming skills.
-            </p>
-        </div>
-        <div class="card-footer">
-            <p class="mb-0">From €5 per person</p>
-        </div>
-    </div>
-</div>
-<div class="col-12 col-md-6 col-xl-3">
-    <div class="card">
-        <img src="assets/images/services-4.webp" class="card-img-top"
-            alt="A kids party being held at Boardwalk Games" >
-        <div class="card-body">
-            <h3 class="card-title sub-heading-color">Connect</h3>
-            <p class="card-text">
-                Celebrate your child's special day with us! We offer fun,
-                game-filled party packages that are sure to delight young
-                gamers and their friends.
-            </p>
-        </div>
-        <div class="card-footer">
-            <p class="mb-0">From €7 per child</p>
-        </div>
-    </div>
-</div>
+      <!-- Welcome Section -->
+      <section id="welcome" class="container-fluid section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="display-6">Welcome</h2>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Support</h3>
+                <p class="card-text">
+                  Talk to proffesional health services about your mental health.
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
             </div>
-        </section>
+          </div>
 
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Resources</h3>
+                <p class="card-text">
+                  Learn more about mental health
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Common Issues</h3>
+                <p class="card-text">
+                  Recognise signs of poor mental health
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">About</h3>
+                <p class="card-text">
+                  Discover how ClearMind will help you
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Advice Section -->
+      <section id="Advice" class="container-fluid section">
+        <div class="row">
+          <!-- Heading -->
+          <div class="col-12 text-center">
+            <h2 class="display-6">Advice</h2>
+          </div>
+          <!-- Sleep Card -->    
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Sleep</h3>
+                <p class="card-text">
+                  Improve your sleep
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Food Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Food</h3>
+                <p class="card-text">
+                  How your diet is impacting your mental health
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Exercise Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Exercise</h3>
+                <p class="card-text">
+                  How exercise will benefit mental health
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Connection Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Connection</h3>
+                <p class="card-text">
+                  How meaningful social connections impact mental health
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Nature Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Nature</h3>
+                <p class="card-text">
+                  Spend more time in nature
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Mindfulness Card -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="card">
+              <img
+                src="assets/images/services-1.webp"
+                class="card-img-top"
+                alt="Boardwalk games cafe table by a window, stacks of boardgames can be seen on the table"
+              />
+              <div class="card-body">
+                <h3 class="card-title sub-heading-color">Mindfulness</h3>
+                <p class="card-text">
+                  Implement mindfulness and meditation
+                </p>
+                <button type="button" class="btn btn-dark btn-outline-light">
+                  Start
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-        
-
-         <!-- Section 2 Advice  -->
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Your Health</h2>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="card">
-                        <img src="assets/images/advice-1.webp" class="card-img-top"
-                            alt="A person meditating in a serene environment" />
-                        <div class="card-body">
-                            <h3 class="card-title">Mindful</h3>
-                            <p class="card-text">
-                                Practice mindfulness to reduce stress and improve
-                                mental clarity. Simple techniques like deep
-                                breathing can make a big difference.</p>
-                        </div>
-                        <div class="card-footer"></div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-                
-                <!-- Section 3 advice and tips -->
-         <section>
-             <div class="row">
-                 <div class="col-12 col-md-6 col-xl-4">
-                     <div class="card">
-                         <img src="assets/images/advice-2.webp" class="card-img-top"
-                             alt="A person journaling in a cozy setting" />
-                         <div class="card-body">
-                             <h3 class="card-title">Reflective</h3>
-                             <p class="card-text">
-                                 Journaling can be a powerful tool for self-reflection
-                                 and emotional processing. Take a few minutes each day
-                                 to write down your thoughts and feelings.
-                             </p>
-                         </div>
-                         <div class="card-footer"></div>
-                     </div>
-                 </div>
-                 <div class="col-12 col-md-6 col-xl-4">
-                     <div class="card">
-                         <img src="assets/images/advice-3.webp" class="card-img-top"
-                             alt="A group of friends talking over coffee" />
-                         <div class="card-body">
-                             <h3 class="card-title">Connective</h3>
-                             <p class="card-text">
-                                 Reach out to friends or family members for support.
-                                 Sharing your experiences with others can help alleviate
-                                 feelings of isolation.
-                             </p>
-                         </div>
-                         <div class="card-footer"></div>
-                     </div>
-                 </div>
-             </div>
-         </section>
+      <!-- Connect Section  -->
+      <section id="connect" class="container-fluid section">
+        <div class="row justify-content-center">
+          <!-- Connect Section Title -->
+          <div class="col-12 text-center">
+            <h2 class="display-6">Connect</h2>
+          </div>
+          <!-- Join Discussion Form -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="card-title sub-heading-color">Join the Discussion</h3>
+                <p class="card-text">
+                  Share your experience and connect with ClearMind
+                </p>
+            <!-- Form -->
+                <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="user-story" class="form-label">Your story:</label>
+    <input type="text" class="form-control" id="user-story" name="user-story">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="newsletter" value="newsletter">
+    <label class="form-check-label" for="newsletter">Sign up to newsletter</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+          </div>
+          <!-- Social Links -->
+          <div class="col-12 col-md-6 col-xl-4">
+            <h3 class="card-title sub-heading-color">Social Links</h3>
+                <p class="card-text">
+                  Join the community via our social links
+                </p>
+            <!-- Social Links -->
+            <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+          </div>
+        </div>
+      
+    </section>
     </main>
 
-
     <!-- Footer -->
-<footer class="mt-auto">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">Contact section heading</div>
-                <!-- Contact info -->
-                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
-                <!-- Opening times -->
-                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
-            </div>
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <p>&copy; 2025 ClearMind. All rights reserved.</p>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-
-
-
-
     <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/f5072bfa60.js" crossorigin="anonymous"></script>
-    
+    <script
+      src="https://kit.fontawesome.com/f5072bfa60.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

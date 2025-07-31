@@ -16,6 +16,10 @@
 
 /* General Styles */
 
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
 body {
   font-family: var(--primary-font);
 }
@@ -106,7 +110,13 @@ h2 {
 
       /* Media Queries */
       @media screen and (min-width: 768px) {
-        #welcome .card {
-          margin-bottom: 0;
+        #welcome .card-body {
+          min-height: 200px; /* Set a minimum height */
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        #welcome .card-body {
+          min-height: auto; /* Set a auto height at larger screen sizes */
         }
       }
